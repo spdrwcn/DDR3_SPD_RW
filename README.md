@@ -30,6 +30,7 @@ idf.py build
     "cmd": "read",
     "value": ""  // Can be empty
 }
+```
 
 ### write
 
