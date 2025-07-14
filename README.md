@@ -2,6 +2,7 @@
 
     This is a simple DDR3 SPD register read/write module.
     Based on ESP32.
+    Compatible with DDR3 and below SPDs. 
     
 ## Setup
 
