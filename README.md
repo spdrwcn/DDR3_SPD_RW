@@ -1,7 +1,8 @@
 ## DDR3_SPD_RW
 
     This is a simple DDR3 SPD register read/write module.
-
+    Based on ESP32.
+    
 ## Setup
 
 ```
@@ -36,3 +37,4 @@ idf.py build
     "cmd": "write",
     "value": ""  // SPD data 256 bytes
 }
+```
