@@ -1,6 +1,6 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPathWin": "C:\\Users\\PC\\esp\\v5.4\\esp-idf",
+  "idf.espIdfPathWin": "C:\\Users\\PC\\esp\\v5.4.2\\esp-idf",
   "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
     "board/esp32c3-ftdi.cfg"
@@ -10,15 +10,11 @@
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32c3"
   },
-  "idf.flashType": "UART",
-  "files.associations": {
-    "stdint.h": "c",
-    "uart.h": "c",
-    "freertos.h": "c",
-    "task.h": "c",
-    "string.h": "c",
-    "i2c.h": "c",
-    "stdio.h": "c",
-    "gpio.h": "c"
-  }
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
+  ],
+  "idf.flashType": "UART"
 }
